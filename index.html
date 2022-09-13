@@ -102,7 +102,7 @@
     <i class="em em-kino"    aria-label=""></i>　Фильмы - <a href="https://kino.aledgg.ru" 
 target="_self">Смотреть</a><br>
 <!-- -------------------------------------------------------------------------------------------------------------------- -->
-    <i class="em em-live"    aria-label=""></i>　Радио - <a href="https://live.aledgg.ru" 
+    <i class="em em-live"    aria-label=""></i>　Радио - <a href="https://live.aledgg.ru" onclick="newMyWindow(this.href); return false;" 
 target="_blank">Слушать</a><br>
 <!-- -------------------------------------------------------------------------------------------------------------------- -->
     <i class="em em-genshin" aria-label=""></i>　Genshin Impact - <a href="#" style="cursor: default;"
@@ -130,6 +130,12 @@ target="_self">Перейти</a></div>
 </html>
 
 <script src="dist/js/main.min.js"></script>
+<script>
+    function newMyWindow(e) {
+        var h = 300, w = 600;
+        window.open(e, '', 'scrollbars=0,height='+Math.min(h, screen.availHeight)+',width='+Math.min(w, screen.availWidth)+',left='+Math.max(0, (screen.availWidth - w)/2)+',top='+Math.max(0, (screen.availHeight - h)/2));
+        }
+</script>
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
