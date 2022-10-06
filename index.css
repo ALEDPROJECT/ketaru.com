@@ -206,3 +206,87 @@ span:hover {
     font-family: "Segoe UI", Georgia, Serif;
     background: #650000;
 }
+
+
+
+.avatar{
+    position: absolute;
+    border-radius: 10px;
+    height: 170px;
+}
+#name{
+    position: absolute;
+    font-size: 40px;
+    font-weight: 600;
+    bottom: -65px;
+    left: 190px;
+}
+#text{
+    position: absolute;
+    bottom: -95px;
+    font-size: 14px;
+    left: 190px;
+}
+#status{
+    cursor: default;
+    position: absolute;
+    transform: scale(0.7);
+    color: rgb(0, 255, 0);
+    bottom: -29px;
+    font-size: 15px;
+    font-weight: 600;
+    left: -9px;
+    background: #003a03;
+    text-shadow: 0px 0px 30px #00ff00;
+    box-shadow: 0px 0px 10px #003a03;
+    border-radius: 5px;
+    padding: 0px 32px 0px 7px;
+    height: 28px;
+}
+
+.txts{
+    position: absolute;
+    color: rgb(0, 255, 0);
+    font-size: 60px;
+    font-weight: bold;
+    left: 69px;
+
+    bottom: -26px;
+    -webkit-text-stroke: 0px #003a03;
+    text-shadow: 0px 0px 30px #00ff00;
+}
+.css-info{
+    position: absolute;
+    bottom: -340px;
+    width: 100%;
+}
+.buttons {
+    position: absolute;
+    bottom: -170px;
+    left: 190px;
+    transition: 0.2s;
+    display: inline-flex;
+    font-size: 18px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    line-height: 16px;
+    text-decoration: none !important;
+    text-transform: none;
+    background-color: #242830;
+    font-family: "Segoe UI", Georgia, Serif;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content: center;
+    padding: 16px 20px;
+    height: 50px;
+    text-align: center;
+    white-space: nowrap;
+}   
+.buttons:hover {
+    transition: 0.2s;
+    color: #fff;
+    font-family: "Segoe UI", Georgia, Serif;
+    background: #262a33;
+}
