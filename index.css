@@ -205,7 +205,8 @@ span:hover {
 .css-info{
     font-family: "Segoe UI", Georgia, Serif;
     position: absolute;
-    top: 20px;
+    font-weight: 600;
+    top: 140px;
     width: 100%;
 }
 .buttons {
