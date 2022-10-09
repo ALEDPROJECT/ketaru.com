@@ -104,6 +104,8 @@ span:hover {
     background-color: #0d1218;
 }
 .css-info{
+    font-family: "Segoe UI", Georgia, Serif;
+    font-weight: 600;
     color: #fff;
     background: #181818;
     border-radius: 5px;
@@ -111,19 +113,19 @@ span:hover {
     line-height: 30px;
     margin-top: -90px;
     font-size: 14px;
-    font-weight: bolder;
     padding-top: 20px;
     padding-bottom: 15px;
     border: 2px solid #FA1A1A;
 }
 .css-info1{
+        font-family: "Segoe UI", Georgia, Serif;
+    font-weight: 600;
     color: #fff;
     background: #181818;
     border-radius: 5px;
     margin-top: 10px;
     font-size: 14px;
     line-height: 30px;
-    font-weight: bolder;
     padding-top: 20px;
     padding-bottom: 15px;
     border: 2px solid #FA1A1A;
