@@ -230,7 +230,7 @@ span:hover {
 }
 .css-info{
     position: absolute;
-    bottom: -340px;
+    top: 170px;
     width: 100%;
 }
 .buttons {
