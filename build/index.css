@@ -147,6 +147,16 @@ span:hover {
 .css-sys{
     position: relative; justify-content: space-between; align-items: center
 }
+.css-linka{
+
+    text-decoration: none !important;
+    border-radius: 3px;
+    background: #2F0505;
+    left: 5px;
+    top: 5px;
+    padding: 1px 10px;
+    cursor: default;
+}
 .css-link{
     display: inline-flex;
     text-decoration: none !important;
