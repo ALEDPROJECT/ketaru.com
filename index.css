@@ -1,7 +1,10 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 .em{
-    font-size: 17px;
+    font-size: 16px;
+    position: relative;
+    bottom: 2px;
 }
 .em-kino{
     background-image:url("https://i.imgur.com/5LPOsNs.png")
@@ -135,7 +138,7 @@ span:hover {
     text-decoration: none !important;
     text-transform: none;
     background-color: #2f39a7;
-    font-family: "Segoe UI", Georgia, Serif;
+    font-family: 'Quicksand', "Segoe UI";
     color: #fff;
     border: none;
     border-radius: 2px;
@@ -149,37 +152,7 @@ span:hover {
 .discord:hover {
     transition: 0.2s;
     color: #fff;
-    font-family: "Segoe UI", Georgia, Serif;
-    background: #1a248f;
-}
-.discord {
-    position: absolute; /* блок занимает ширину содержимого, max-width её ограничивает */
-    top: 0.8em; /* прикрепить к верху родителя */
-    right: 0;
-    transition: 0.2s;
-    display: inline-flex;
-    font-size: 18px;
-    letter-spacing: 0px;
-    font-weight: 600;
-    line-height: 16px;
-    text-decoration: none !important;
-    text-transform: none;
-    background-color: #2f39a7;
-    font-family: "Segoe UI", Georgia, Serif;
-    color: #fff;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
-    justify-content: center;
-    padding: 7px 10px;
-    height: 32px;
-    text-align: center;
-    white-space: nowrap;
-}  
-.discord:hover {
-    transition: 0.2s;
-    color: #fff;
-    font-family: "Segoe UI", Georgia, Serif;
+    font-family: 'Quicksand', "Segoe UI";
     background: #1a248f;
 }                                  
 .avatar{
@@ -189,31 +162,31 @@ span:hover {
     border-radius: 10px;
     height: 120px;
 }
-#name{font-family: "Segoe UI", Georgia, Serif;
-    
+#name{
+    font-family: 'Quicksand', "Segoe UI";
     position: absolute;
     font-size: 40px;
     font-weight: 100;
     top: -80px;
     left: 140px;
 }
-#text{font-family: "Segoe UI", Georgia, Serif;
-    
+#text{
+    font-family: 'Quicksand', "Segoe UI";
     position: absolute;
     top: 5px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     left: 142px;
 }
 .css-info{
-    font-family: "Segoe UI", Georgia, Serif;
+    font-family: 'Quicksand', "Segoe UI";
     position: absolute;
     font-weight: 600;
     top: 140px;
     width: 100%;
 }
 .buttons {
-    font-family: "Segoe UI", Georgia, Serif;
+    font-family: 'Quicksand', "Segoe UI";
     position: absolute;
     top: 50px;
     left: 140px;
@@ -239,6 +212,6 @@ span:hover {
 .buttons:hover {
     transition: 0.2s;
     color: #fff;
-    font-family: "Segoe UI", Georgia, Serif;
+    font-family: 'Quicksand', "Segoe UI";
     background: #262a69;
 }
