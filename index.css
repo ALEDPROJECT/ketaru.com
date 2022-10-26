@@ -87,6 +87,12 @@ span:hover {
     background-color: #0d1218;
 }
 .css-info{
+    font-family: 'Quicksand', "Segoe UI";
+    position: absolute;
+    font-weight: 600;
+    top: 140px;
+    width: 100%;
+    
     color: #fff;
     background: #181818;
     border-radius: 5px;
@@ -154,12 +160,13 @@ span:hover {
     color: #fff;
     font-family: 'Quicksand', "Segoe UI";
     background: #1a248f;
-}                                  
+}                                 
 .avatar{
+    border: 3px solid #fff;
     position: absolute;
     top: -30px;
     position: absolute;
-    border-radius: 10px;
+    border-radius: 5px;
     height: 120px;
 }
 #name{
@@ -167,29 +174,22 @@ span:hover {
     position: absolute;
     font-size: 40px;
     font-weight: 100;
-    top: -80px;
-    left: 140px;
+    top: -88px;
+    left: 130px;
 }
 #text{
     font-family: 'Quicksand', "Segoe UI";
     position: absolute;
-    top: 5px;
+    bottom: -53px;
     font-size: 14px;
     font-weight: 600;
-    left: 142px;
-}
-.css-info{
-    font-family: 'Quicksand', "Segoe UI";
-    position: absolute;
-    font-weight: 600;
-    top: 140px;
-    width: 100%;
+    left: 132px;
 }
 .buttons {
     font-family: 'Quicksand', "Segoe UI";
     position: absolute;
     top: 50px;
-    left: 140px;
+    left: 130px;
     transition: 0.2s;
     display: inline-flex;
     font-size: 18px;
