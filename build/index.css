@@ -104,7 +104,7 @@ span:hover {
     background-color: #0d1218;
 }
 .css-info{
-    font-family: "Segoe UI", Georgia, Serif;
+    font-family: 'Quicksand', "Segoe UI";
     font-weight: 600;
     color: #fff;
     background: #181818;
@@ -118,7 +118,7 @@ span:hover {
     border: 2px solid #FA1A1A;
 }
 .css-info1{
-        font-family: "Segoe UI", Georgia, Serif;
+    font-family: 'Quicksand', "Segoe UI";
     font-weight: 600;
     color: #fff;
     background: #181818;
@@ -179,7 +179,7 @@ span:hover {
     text-decoration: none !important;
     text-transform: none;
     background-color: #2f39a7;
-    font-family: "Segoe UI", Georgia, Serif;
+    font-family: 'Quicksand', "Segoe UI";
     color: #fff;
     border: none;
     border-radius: 2px;
@@ -193,36 +193,5 @@ span:hover {
 .discord:hover {
     transition: 0.2s;
     color: #fff;
-    font-family: "Segoe UI", Georgia, Serif;
-    background: #1a248f;
-}
-.discord {
-    position: absolute; /* блок занимает ширину содержимого, max-width её ограничивает */
-    top: 0.8em; /* прикрепить к верху родителя */
-    right: 0;
-    transition: 0.2s;
-    display: inline-flex;
-    font-size: 18px;
-    letter-spacing: 0px;
-    font-weight: 600;
-    line-height: 16px;
-    text-decoration: none !important;
-    text-transform: none;
-    background-color: #2f39a7;
-    font-family: "Segoe UI", Georgia, Serif;
-    color: #fff;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
-    justify-content: center;
-    padding: 7px 10px;
-    height: 32px;
-    text-align: center;
-    white-space: nowrap;
-}  
-.discord:hover {
-    transition: 0.2s;
-    color: #fff;
-    font-family: "Segoe UI", Georgia, Serif;
     background: #1a248f;
 }
