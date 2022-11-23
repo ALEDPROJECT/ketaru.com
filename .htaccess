@@ -1,6 +1,6 @@
 DirectorySlash Off
 
-Redirect 301 /kino http://kino.aledgg.ru
+Redirect 404 /kino http://kino.aledgg.ru
 
 RewriteBase /
 RewriteRule (.*)\.html$ $1 [R=301,L]
