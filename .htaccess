@@ -1,6 +1,6 @@
 DirectorySlash Off
 
-Redirect /kino http://kino.aledgg.ru
+Redirect 301 /kino http://kino.aledgg.ru
 
 RewriteBase /
 RewriteRule (.*)\.html$ $1 [R=301,L]
@@ -9,3 +9,10 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} (.*)
 RewriteCond %{REQUEST_URI} /$ [NC]
 RewriteRule ^(.*)(/)$ $1 [L,R=301]
+
+RewriteCond %{REQUEST_URI} !\?
+RewriteCond %{REQUEST_URI} !\&
+RewriteCond %{REQUEST_URI} !\=
+RewriteCond %{REQUEST_URI} !\.
+RewriteCond %{REQUEST_URI} ![^\/]$
+RewriteRule ^(.*)\/$ /$1 [R=301,L]
