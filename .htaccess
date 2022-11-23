@@ -1,5 +1,7 @@
 DirectorySlash Off
 
+Redirect /kino http://kino.aledgg.ru
+
 RewriteEngine On
 RewriteBase /
 RewriteCond %{HTTP_HOST} (.*)
