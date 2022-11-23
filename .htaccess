@@ -1,6 +1,7 @@
 DirectorySlash Off
 
-Redirect 404 /kino http://kino.aledgg.ru
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
 
 RewriteBase /
 RewriteRule (.*)\.html$ $1 [R=301,L]
