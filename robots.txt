@@ -1,3 +1,4 @@
+Sitemap: http://aledgg.ru/sitemap.xml
 ################################# ROBOTS.TXT ###################################
 #                                                                              #
 # Alphabetically ordered whitelisting of legitimate web robots, which obey the #
