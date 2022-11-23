@@ -215,3 +215,18 @@ span:hover {
     font-family: 'Quicksand', "Segoe UI";
     background: #262a69;
 }
+#licntFE24{
+/*     display: none; */
+    font-family: 'Quicksand', "Segoe UI";
+    position: absolute;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    bottom: -53px;
+    height: 35px;
+    width: 91px;
+    font-size: 14px;
+    font-weight: 600;
+    right: 20px;
+    top: 153%;
+    z-index: -21;
+}
