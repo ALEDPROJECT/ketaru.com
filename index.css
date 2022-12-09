@@ -162,12 +162,20 @@ span:hover {
     background: #1a248f;
 }                                 
 .avatar{
-    border: 3px solid #fff;
+    transition: 0.2s;
+    box-shadow: 5px 5px 4px #080c0f;
+    border: 2px solid #364758;
     position: absolute;
     top: -30px;
+    left: 0px;
     position: absolute;
     border-radius: 5px;
     height: 120px;
+}
+.avatar:hover{
+    transition: 0.2s;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #080c0f;
 }
 #name{
     font-family: 'Quicksand', "Segoe UI";
@@ -198,7 +206,7 @@ span:hover {
     line-height: 16px;
     text-decoration: none !important;
     text-transform: none;
-    background-color: #242840;
+    background-color: #2c3a50;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -208,12 +216,18 @@ span:hover {
     height: 40px;
     text-align: center;
     white-space: nowrap;
+    box-shadow: 5px 5px 4px #080c0f;
+    border-top: 2px solid #31435e;
+    border-left: 2px solid #31435e;
+    border-right: 0px solid #31435e;
+    border-bottom: 0px solid #31435e;
 }   
 .buttons:hover {
     transition: 0.2s;
+    box-shadow: 2px 2px 1px #080c0f;
     color: #fff;
     font-family: 'Quicksand', "Segoe UI";
-    background: #262a69;
+    background: #31435e;
 }
 #licntFE24{
 /*     display: none; */
