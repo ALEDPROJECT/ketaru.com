@@ -164,7 +164,7 @@ span:hover {
 .avatar{
     transition: 0.2s;
     box-shadow: 5px 5px 4px #080c0f;
-    border: 2px solid #364758;
+    border: 0px solid #364758;
     position: absolute;
     top: -30px;
     left: 0px;
