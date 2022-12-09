@@ -135,7 +135,7 @@ span:hover {
     position: absolute;
     top: 0.8em;
     right: 0;
-    transition: 0.2s;
+    transition: 0.2s; 
     display: inline-flex;
     font-size: 18px;
     letter-spacing: 0px;
