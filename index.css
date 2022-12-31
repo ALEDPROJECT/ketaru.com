@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 .em{
     font-size: 16px;
@@ -70,7 +71,7 @@ span:hover {
     background-color: #0d1218;
 }
 .css-info{
-    font-family: 'Quicksand', "Segoe UI";
+    font-family: 'Quicksand', "Comfortaa";
     position: absolute;
     font-weight: 600;
     top: 140px;
