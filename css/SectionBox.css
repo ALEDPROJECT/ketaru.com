@@ -103,6 +103,7 @@
 }
 .img_2 {
     position: relative;
+    pointer-events: none;
     left: -15px;
     top: -155px;
 }
