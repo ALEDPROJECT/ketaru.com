@@ -103,12 +103,13 @@
 }
 .img_2 {
     position: relative;
-    pointer-events: none;
     left: -15px;
     top: -155px;
 }
-
-
+#img2 {
+    pointer-events: none;
+    position: absolute;
+}
 /* Кнопка */
 .dis {
     position: relative;
@@ -126,7 +127,7 @@
     border-right: 0px solid #5d63f0;
     border-bottom: 0px solid #4b51c3;
     left: 175px;
-    top: -47px;
+    top: 124px;
     transition: 0.2s;
 }
 .dis:hover {
@@ -153,7 +154,7 @@
     border-right: 0px solid #31435e;
     border-bottom: 0px solid #2c3b51;
     left: 175px;
-    top: -47px;
+    top: 124px;
     transition: 0.2s;
 }
 .buttonn:hover {
