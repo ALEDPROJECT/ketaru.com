@@ -8,31 +8,28 @@
     bottom: 2px; 
 }
 .em-kino{
-    background-image:url("https://i.imgur.com/5LPOsNs.png")
+    background-image:url("./icon/kino.png")
 }
 .em-live{
-    background-image:url("https://i.imgur.com/qqSDso3.png")
-}
-.em-genshin{
-    background-image:url("https://i.imgur.com/FKBBkV7.png")
+    background-image:url("./icon/live.png")
 }
 .em-gta5rp{
-    background-image:url("https://i.imgur.com/wq3gyEd.png")
+    background-image:url("./icon/gta5rp.png")
 }
 .em-tiktok{
-    background-image:url("https://i.imgur.com/OWKI2Co.png")
+    background-image:url("./icon/tiktok.png")
 }
 .em-youtube{
-    background-image:url("https://i.imgur.com/FDWKlzI.png")
+    background-image:url("./icon/youtube.png")
 }
 .em-steam{
-    background-image:url("https://i.imgur.com/se7b2r3.png")
+    background-image:url("./icon/steam.png")
 }
 .em-vk{
-    background-image:url("https://i.imgur.com/r0B0NL7.png")
+    background-image:url("./icon/vk.png")
 }
 .em-bots{
-    background-image:url("https://i.imgur.com/5AwxBI6.png")
+    background-image:url("./icon/bots.png")
 }
 .Version{
     font-style: bold;

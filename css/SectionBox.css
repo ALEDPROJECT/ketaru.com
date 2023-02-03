@@ -62,33 +62,6 @@
     padding: 0px;
 }
 
-/* Дизайн секции */
-
-
-/* Название/ограниение */
-.name{
-    font-family: 'Quicksand', "Segoe UI";
-    line-height: 1.0;
-    height: 107px;
-    font-size: 40px;
-    top: -3px;
-    position: relative;
-    color: #fff;
-    margin-top: 48px;
-    margin-bottom: 14px
-}
-.number {
-    font-family: 'Quicksand', "Segoe UI";
-    font-size: 14px;
-    line-height: 1.0;
-    border-radius: 3px;
-    left: 2px;
-    color: #7b94a7;
-    position: relative;
-    font-weight: 600;
-    width: 290px;
-}
-
 /* Изображение */
 .im{
     top: -140px;
