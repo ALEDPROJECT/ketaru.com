@@ -31,7 +31,7 @@
     border-radius: 0px 0px 5px 5px;
     position: relative;
     bottom: 6px;
-    height: 280px;
+    height: 310px;
 }
 .hero-copy {
     margin-left: 4px;
@@ -203,29 +203,29 @@ box-shadow: 2px 2px 1px #080c0f;
     margin-right: 10px;
 }
 .em-kino{
-    background-image:url("https://i.imgur.com/5LPOsNs.png")
+    background-image:url("../icon/kino.png")
 }
 .em-live{
-    background-image:url("https://i.imgur.com/qqSDso3.png")
-}
-.em-genshin{
-    background-image:url("https://i.imgur.com/FKBBkV7.png")
+    background-image:url("../icon/live.png")
 }
 .em-gta5rp{
-    background-image:url("https://i.imgur.com/wq3gyEd.png")
+    background-image:url("../icon/gta5rp.png")
+}
+.em-dead{
+    background-image:url("../icon/Dead.png")
 }
 .em-tiktok{
-    background-image:url("https://i.imgur.com/OWKI2Co.png")
+    background-image:url("../icon/tiktok.png")
 }
 .em-youtube{
-    background-image:url("https://i.imgur.com/FDWKlzI.png")
+    background-image:url("../icon/youtube.png")
 }
 .em-steam{
-    background-image:url("https://i.imgur.com/se7b2r3.png")
+    background-image:url("../icon/steam.png")
 }
 .em-vk{
-    background-image:url("https://i.imgur.com/r0B0NL7.png")
+    background-image:url("../icon/vk.png")
 }
 .em-bots{
-    background-image:url("https://i.imgur.com/5AwxBI6.png")
+    background-image:url("../icon/bots.png")
 }
