@@ -2,8 +2,8 @@
 
 .em{
     position: relative;
-    font-size: 17px;
-    top: -2px;
+    font-size: 20px;
+    top: 2px;
 }
 .mouse{
     background-image:url("https://i.imgur.com/w1xsA6l.png")
@@ -99,7 +99,7 @@ span:hover {
     margin-top: -90px;
     font-size: 14px;
     padding-top: 20px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
     border: 2px solid #FA1A1A;
 }
 .css-info1{
@@ -112,7 +112,7 @@ span:hover {
     font-size: 14px;
     line-height: 30px;
     padding-top: 20px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
     border: 2px solid #FA1A1A;
 }
 .css-name{
@@ -188,7 +188,7 @@ span:hover {
 .txt{
     transition: 0.2s;
     color: hsl(0, 0%, 100%);
-    background: hsl(217, 30%, 22%);
+    /* background: hsl(217, 30%, 22%);
     padding: 3px 6px;
     border-radius: 3px;
     height: 565px;
@@ -196,35 +196,79 @@ span:hover {
     border-top: solid hsl(217, 30%, 28%) 1px;
     border-left: solid hsl(217, 30%, 28%) 1px;
     border-right: solid hsl(217, 30%, 28%) 0px;
+    border-bottom: solid hsl(217, 30%, 28%) 0px; */
+    font-size: 14px;
+    /* bottom: 5px; */
+    position: relative;
+}
+.txts{
+    transition: 0.2s all;
+    color: hsl(0, 0%, 100%);
+    background: hsl(217, 30%, 22%);
+    padding: 3px 6px;
+    border-radius: 3px;
+    left: 15px;
+    margin-top: 5px;
+    position: relative;
+    /* height: 56px; */
+    width: 350px;
+    height: 60px;
+    box-shadow: 5px 5px 4px hsl(206, 30%, 5%);
+    border-top: solid hsl(217, 30%, 28%) 1px;
+    border-left: solid hsl(217, 30%, 28%) 1px;
+    border-right: solid hsl(217, 30%, 28%) 0px;
     border-bottom: solid hsl(217, 30%, 28%) 0px;
 }
-.txt:hover{
-    transition: 0.2s;
+.txts:hover{
     color: hsl(0, 0%, 100%);
     background: hsl(217, 29%, 28%);
     padding: 3px 6px;
     border-radius: 3px;
-    height: 565px;
+    /* height: 565px; */
     box-shadow: 2px 2px 1px hsl(206, 30%, 5%)
 }
 .money{
+    position: relative;
+    left: 44px;
+    top: 22px;
+    color: hsl(0, 0%, 100%);
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: right;
+    /* box-shadow: 2px 2px 1px #080c0f; */
+    background: rgb(0, 0, 0);
+    text-align: right;
+}
+.money::after{
+    content: 'руб';
+    color: #36ff72;
+    margin-left: 2px;
+}
+
+.info{
     transition: 0.2s;
     position: relative;
-    right: 15px;
-    left: 4px;
+    left: 44px;
+    top: 22px;
     color: hsl(0, 0%, 100%);
-    padding: 3px 6px;
+    padding: 2px 6px;
     border-radius: 3px;
-    height: 565px;
-    box-shadow: 5px 5px 4px hsl(206, 30%, 5%);
-    background: hsla(120, 100%, 20%);
-    border-top: solid hsl(120, 100%, 26%) 1px;
-    border-left: solid hsl(120, 100%, 26%) 1px;
-    border-right: solid 0px hsl(120, 100%, 26%) 0px;
-    border-bottom: solid 0px hsl(120, 100%, 26%) 0px;
+    font-size: 10px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: right;
+    /* box-shadow: 2px 2px 1px #080c0f; */
+    background: rgb(0, 0, 0);
+    text-align: right;
+    margin-left: 3px;
 }
-.money:hover{
-    transition: 0.2s;
-    box-shadow: 2px 2px 1px #080c0f;
-    background: hsla(120, 100%, 26%);
+
+#ww{
+    color: #eb85ff;
+    padding: 0px;
+    background: none;
+    margin-left: 2px;
 }
