@@ -6,51 +6,53 @@
     top: 2px;
 }
 .mouse{
-    background-image:url("https://i.imgur.com/w1xsA6l.png")
+    background-image:url("../icon/cfg/mouse.png")
 }
 .key{
-    background-image:url("https://i.imgur.com/TBs0oah.png")
+    background-image:url("../icon/cfg/key.png")
 }
 .mic{
-    background-image:url("https://i.imgur.com/w8yf5kM.png")
+    background-image:url("../icon/cfg/key.png")
 }
 .phone{
-    background-image:url("https://i.imgur.com/QBeTzI7.png")
+    background-image:url("../icon/cfg/phone3.png")
 }
 .pad{
-    background-image:url("https://i.imgur.com/2c8izWT.png")
+    background-image:url("../icon/cfg/ipad2.png")
 }
 .display{
-    background-image:url("https://i.imgur.com/p2coDOe.png")
+    background-image:url("../icon/cfg/monitor3.png")
 }
 
 
 
 .box{
-    background-image:url("https://i.imgur.com/QMRguD5.png")
+    background-image:url("../icon/cfg/pc.png")
 }
 .power{
-    background-image:url("https://i.imgur.com/tmk0L5b.png")
+    background-image:url("../icon/cfg/electro.png")
 }
 .board{
-    background-image:url("https://i.imgur.com/jkuSScU.png")
+    background-image:url("../icon/cfg/matboard.png")
 }
 .cpu{
-    background-image:url("https://i.imgur.com/ThNKsl5.png")
+    background-image:url("../icon/cfg/cpu.png")
 }
 .gpu{
-    background-image:url("https://i.imgur.com/Flqt0hT.png")
+    background-image:url("../icon/cfg/gpu.png")
 }
 .memory{
-    background-image:url("https://i.imgur.com/eo39Dni.png")
+    background-image:url("../icon/cfg/ram.png")
 }
 .hdd{
-    background-image:url("https://i.imgur.com/5QOq9C9.png")
+    background-image:url("../icon/cfg/hdd.png")
 }
 .sdd{
-    background-image:url("https://i.imgur.com/W4QIEjx.png")
+    background-image:url("../icon/cfg/ssd.png")
 }
-
+.m2{
+    background-image:url("../icon/cfg/m2.png")
+}
 
 .Version{
     font-style: bold;
