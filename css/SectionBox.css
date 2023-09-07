@@ -23,15 +23,17 @@
 }
 
 .hero-copy1 {
-    padding: 15px;
-    background-color: #181818;
+    /* padding: 0px; */
+    padding-bottom: 15px;
+    padding-top: 10px;
+    background-color: #141c24;
     border-width: 2px;
     border-style: solid;
     border-color: #f71a1a;
     border-radius: 0px 0px 5px 5px;
     position: relative;
     bottom: 6px;
-    height: 310px;
+    /* height: 310px; */
 }
 .hero-copy {
     margin-left: 4px;
@@ -135,10 +137,6 @@
     background-color: #31435e;
     color: #ffffff;
 }
-.gg{
-    color: #fff;
-    font-family: 'Quicksand', "Comfortaa";
-}
 /* Кнопка */
 .buttonnn {
     font-family: 'Quicksand', "Comfortaa";    
@@ -197,7 +195,7 @@ box-shadow: 2px 2px 1px #080c0f;
 }
 
 .em{
-    font-size: 16px;
+    font-size: 20px;
     position: relative;
     bottom: 2px;
     margin-right: 10px;
