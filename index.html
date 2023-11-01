@@ -52,6 +52,77 @@
 <!-- каталог фильмов -->
 <section class="hero2"></section>
 
+<style>
+    #bg1{
+        background:linear-gradient(to bottom, rgba(0,0,0,.0), rgba(255, 0, 0, 0.716)) !important;
+    }
+    .parent{
+   position:relative;
+}
+#opacity_div{
+   background:#fff;
+   height:20px;
+   width:20px;
+   position:absolute;
+   top:18px;
+   left:6px;
+   opacity:0.5 /* manipulate to desired opacity */
+}
+img.half_fade {
+   position:absolute;
+   top:0;left:0;
+   z-index:-1000;
+}
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<div class="background">
+<div></div>
+</div>
+<style>
+    :root{
+        --size: 30px
+    }
+    .background div{
+        background:
+            linear-gradient(270deg, #00000000 calc(100% - var(--size)), #0d1218 100%),
+            linear-gradient(90deg, #00000000 calc(100% - var(--size)), #0d1218 100%),
+            linear-gradient(180deg, #00000000 0%,#0d1218 40%);
+        width: 100%;
+        height: 100%;
+        animation: none !important;
+        backdrop-filter: blur(10px);
+
+    }
+    .background{
+        left: calc(var(--size) - var(--size)*2);
+        right: calc(var(--size) - var(--size)*2);
+        width: calc(100% + var(--size)*2);
+        
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        max-width: 1300px;
+        height: 500px;
+        background: url(bg1.gif);
+        background-size: cover;
+        top: 80px;
+        z-index: -1000;
+        animation: none !important;
+    }
+</style>
+</html>
+
+<!-- <img id="bg1" width="100%" src="bg1.gif" style=" filter: blur(5px); position: absolute; top: 80px; width: 100%; z-index: -1000;"> -->
 <section class="hero1"><div class="container"><div class="hero-copy"><div class="film">
     <div class="name"><span class="ass">Develpors</span>
     <p class="number"><span span style="color: #92d3ff">Я разработчик с <span span style="color: #fdff8e">2017</span> года</span><br><br>Основатель проекта: <span style="color: #64ff71">KetaruCorp 💕</span></p></div></div><div class="im">
