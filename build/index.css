@@ -6,6 +6,12 @@
     font-size: 20px;
     top: 2px;
 }
+.win{
+    background-image:url("../icon/cfg/win.png")
+}
+
+
+
 .mouse{
     background-image:url("../icon/cfg/mouse.png")
 }
@@ -204,6 +210,12 @@ span:hover {
     /* bottom: 5px; */
     position: relative;
 }
+#s{
+    color: #eb85ff;
+    padding: 0px;
+    background: none;
+    margin-left: 3px;
+}
 .txts{
     transition: 0.2s all;
     color: hsl(0, 0%, 100%);
@@ -246,6 +258,21 @@ span:hover {
     background: rgb(0, 0, 0);
     text-align: right;
 }
+.mon{
+    position: relative;
+    left: 44px;
+    top: 22px;
+    color: hsl(0, 0%, 100%);
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: right;
+    /* box-shadow: 2px 2px 1px #080c0f; */
+    background: rgb(0, 0, 0);
+    text-align: right;
+}
 .money::after{
     content: 'руб';
     color: #36ff72;
@@ -271,7 +298,7 @@ span:hover {
 }
 
 #ww{
-    color: #eb85ff;
+    color: #ae9fff;
     padding: 0px;
     background: none;
     margin-left: 2px;
