@@ -53,6 +53,10 @@
 <section class="hero2"></section>
 
 <style>
+    html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    }
     #bg1{
         background:linear-gradient(to bottom, rgba(0,0,0,.0), rgba(255, 0, 0, 0.716)) !important;
     }
@@ -75,52 +79,44 @@ img.half_fade {
 }
 </style>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<div class="background">
-<div></div>
-</div>
-<style>
-    :root{
-        --size: 30px
-    }
-    .background div{
-        background:
-            linear-gradient(270deg, #00000000 calc(100% - var(--size)), #0d1218 100%),
-            linear-gradient(90deg, #00000000 calc(100% - var(--size)), #0d1218 100%),
-            linear-gradient(180deg, #00000000 0%,#0d1218 40%);
-        width: 100%;
-        height: 100%;
-        animation: none !important;
-        backdrop-filter: blur(5px);
-
-    }
-    .background{
-        left: calc(var(--size) - var(--size)*2);
-        right: calc(var(--size) - var(--size)*2);
-        width: calc(100% + var(--size)*2);
+<body>
+    <div class="background" scroll="no">
+        <div></div>
+        </div>
+        <style>
+            :root{
+                --size: 30px
+            }
+            .background div{
+                background:
+                    linear-gradient(270deg, #00000000 calc(100% - var(--size)), #0d1218 100%),
+                    linear-gradient(90deg, #00000000 calc(100% - var(--size)), #0d1218 100%),
+                    linear-gradient(180deg, #00000000 0%,#0d1218 40%);
+                width: 100%;
+                height: 100%;
+                animation: none !important;
+                backdrop-filter: blur(5px);
         
-        position: absolute;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        max-width: 1300px;
-        height: 500px;
-        background: url(bg1.gif);
-        background-size: cover;
-        top: 80px;
-        z-index: -1000;
-        /* animation: none !important; */
-    }
-</style>
-</html>
+            }
+            .background{
+                left: calc(var(--size) - var(--size)*2);
+                right: calc(var(--size) - var(--size)*2);
+                width: calc(100% + var(--size)*2);
+                
+                position: absolute;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                max-width: 1300px;
+                height: 500px;
+                background: url(bg1.gif);
+                background-size: cover;
+                top: 80px;
+                z-index: -1000;
+                /* animation: none !important; */
+            }
+        </style>
+</body>
 
 <!-- <img id="bg1" width="100%" src="bg1.gif" style=" filter: blur(5px); position: absolute; top: 80px; width: 100%; z-index: -1000;"> -->
 <section class="hero1"><div class="container"><div class="hero-copy"><div class="film">
