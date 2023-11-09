@@ -5,7 +5,27 @@
     font-family: 'Quicksand', "Comfortaa";
     content: 'Информация';
     position: relative;
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 3px 3px 0px 0px;
+    padding: 5px 0 3px 0;
+    display: inline-flex;
+    text-decoration: none !important;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: -26px;
+    display: block;
+    border: 2px solid #fa1a1a;
+    background-color: #680b0b;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: default;
+}
+.buttonns1:before{
+    font-family: 'Quicksand', "Comfortaa";
+    content: 'Музыкальный плейлист';
+    position: relative;
+    border-radius: 3px 3px 0px 0px;
     padding: 5px 0 3px 0;
     display: inline-flex;
     text-decoration: none !important;
@@ -30,7 +50,7 @@
     border-width: 2px;
     border-style: solid;
     border-color: #f71a1a;
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 3px 3px;
     position: relative;
     bottom: 6px;
     /* height: 310px; */
@@ -46,10 +66,13 @@
     padding: 40px 0px 20px 0px;
 }
 .hero1 {
-    padding: 0px 0px 20px 0px;
+    padding: 0px 0px 00px 0px;
 }
 .hero2 {
     padding: 20px 0px 20px 0px;
+}
+.hero4 {
+    padding: 5px 0px 20px 0px;
 }
 .film {
     padding-left: 160px;
