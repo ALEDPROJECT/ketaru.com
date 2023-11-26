@@ -14,7 +14,7 @@
     font-size: 18px;
     margin-bottom: -26px;
     display: block;
-    border: 2px solid #fa1a1a;
+    border: 1px solid #fa1a1a;
     background-color: #680b0b;
     text-align: center;
     margin-left: auto;
@@ -34,7 +34,7 @@
     font-size: 18px;
     margin-bottom: -26px;
     display: block;
-    border: 2px solid #fa1a1a;
+    border: 1px solid #fa1a1a;
     background-color: #680b0b;
     text-align: center;
     margin-left: auto;
@@ -47,7 +47,7 @@
     padding-bottom: 15px;
     padding-top: 10px;
     background-color: #141c24;
-    border-width: 2px;
+    border-width: 1px;
     border-style: solid;
     border-color: #f71a1a;
     border-radius: 0px 0px 3px 3px;
