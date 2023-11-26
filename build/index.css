@@ -102,27 +102,27 @@ span:hover {
     font-weight: 600;
     color: #fff;
     background: #141c24;
-    border-radius: 3px;
+    border-radius: 2px;
     margin-top: 10px;
     line-height: 30px;
     margin-top: -90px;
     font-size: 14px;
     padding-top: 20px;
     padding-bottom: 15px;
-    border: 2px solid #FA1A1A;
+    border: 1px solid #FA1A1A;
 }
 .css-info1{
     font-family: 'Quicksand', "Segoe UI";
     font-weight: 600;
     color: #fff;
     background: #141c24;
-    border-radius: 3px;
+    border-radius: 2px;
     margin-top: 10px;
     font-size: 14px;
     line-height: 30px;
     padding-top: 20px;
     padding-bottom: 15px;
-    border: 2px solid #FA1A1A;
+    border: 1px solid #FA1A1A;
 }
 .css-name{
     text-align: center;
@@ -131,12 +131,11 @@ span:hover {
     border-radius: 1px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    margin-right: -0.4px;
     margin-top: -20px;
     font-size: 18px;
     margin-bottom: 15px;
     padding: 3px;
-    border-bottom: 2px solid #FA1A1A;
+    border-bottom: 1px solid #FA1A1A;
 }
 .css-sys{
     position: relative; justify-content: space-between; align-items: center

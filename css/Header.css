@@ -1,7 +1,7 @@
 /* Дизайн шапки страницы */
 .site-header {
     background-color: var(--header);
-    border-bottom: 2px solid var(--BoxBorder);
+    border-bottom: 1px solid var(--BoxBorder);
     height: 82px;
     animation: none;
     padding: 24px 0
@@ -10,11 +10,14 @@
 .LogoBox{
     transition: 0.2s;
     padding: 5px 10px 5px 10px;
-    border-radius: 5px;
+    border-radius: 2px;
     margin-right: 5px;
     background: #2c3a50;
 }
 .LogoBox:hover {
+    padding: 5px 10px 5px 10px;
+    border-radius: 2px;
+    margin-right: 5px;
     transition: 0.2s;
     background: #31435e;
 }
@@ -46,7 +49,7 @@
     color: #ffffff;
 }
 .LogoPage:after{
-    content: "";
+    content: var(--VerBeta);
     font-weight: 600;
     font-size: 12px;
     margin-left: 2px;
