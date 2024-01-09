@@ -1,12 +1,12 @@
 /* KetaRu ScrollBars */
 :root{
-    --Background: #0f0f0f;
+    --Background: #151c24;
     --Fon: #0d1218;
     --ColorNone: #4cc2ff;
     --ColorCursor: #4cc3ff80;
-    --Width: 16px;
-    --Border: 4px;
-    --Radius: 6px;
+    --Width: 10px;
+    --Border: 2px;
+    --Radius: 3px;
 }
 реьд{
     overflow-y: auto;
@@ -32,6 +32,7 @@
     position: absolute;
     width: var(--Width);
     background-color: var(--Background);
+    outline: 1px solid #374758;
 }
 ::-webkit-scrollbar-thumb{
     position: absolute;
